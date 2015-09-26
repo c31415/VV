@@ -1,3 +1,4 @@
+/* global Quintus */
 Quintus.ActionPlatformerPlayer = function(Q) {
 
   Q.Sprite.extend("Player", {    

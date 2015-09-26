@@ -1,3 +1,4 @@
+/* global Quintus */
 Quintus.ActionPlatformerEnemy = function(Q) {
 
     Q.Sprite.extend("warpDoor", {
