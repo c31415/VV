@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="38" height="38" tilewidth="21" tileheight="21" nextobjectid="18">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="38" height="38" tilewidth="21" tileheight="21" nextobjectid="20">
  <tileset firstgid="1" name="Open" tilewidth="21" tileheight="21" spacing="2">
   <image source="../images/spritesheet.png" width="692" height="692"/>
+  <tile id="418">
+   <properties>
+    <property name="Class" value="GroundFriend"/>
+    <property name="sheet" value="frog"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="901" name="open_tileset_0" tilewidth="16" tileheight="16">
   <image source="../images/open_tileset_0.png" width="160" height="180"/>
@@ -15,6 +21,12 @@
    <properties>
     <property name="Class" value="warpDoor"/>
     <property name="sheet" value="door"/>
+   </properties>
+  </tile>
+  <tile id="60">
+   <properties>
+    <property name="Class" value="GroundFriend"/>
+    <property name="sheet" value="cat"/>
    </properties>
   </tile>
   <tile id="64">
@@ -4407,5 +4419,7 @@
   <object id="11" gid="930" x="705.333" y="397.333" width="16" height="16"/>
   <object id="16" gid="944" x="110.667" y="84.6667" width="16" height="16"/>
   <object id="17" gid="944" x="780.667" y="399.333" width="16" height="16"/>
+  <object id="18" gid="961" x="546" y="144" width="16" height="16"/>
+  <object id="19" gid="419" x="279" y="83" width="21" height="21"/>
  </objectgroup>
 </map>
